@@ -616,7 +616,7 @@ ls -l
 
 每一列表示的内容如图：
 
-![image-20221018221355871](./07-account-and-authority-management.assets/image-20221018221355871.png)
+![image-20221018221355871](./07-account-and-authority-manage.assets/image-20221018221355871.png)
 
 > 其中 `-` 表示无权限。
 
@@ -627,7 +627,7 @@ ls -l docs
 drwxr-xr-x   2   osmond   family   4096   06-16   20:43   docs
 ```
 
-![image-20221018234206639](./07-account-and-authority-management.assets/image-20221018234206639.png)
+![image-20221018234206639](./07-account-and-authority-manage.assets/image-20221018234206639.png)
 
 在显示的结果中，第一个字段的第 2 ～ 10 个字符是用来表示权限。
 
@@ -892,7 +892,7 @@ drwxrwxrwt 5 root root  4096   06-18 01:01 /tmp
 | Sticky-bit | 1        |
 | -          | 0        |
 
-![image-20221019213553573](./07-account-and-authority-management.assets/image-20221019213553573.png)
+![image-20221019213553573](./07-account-and-authority-manage.assets/image-20221019213553573.png)
 
 如：
 
