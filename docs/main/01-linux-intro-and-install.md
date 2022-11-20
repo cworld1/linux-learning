@@ -1,5 +1,7 @@
 # Linux 介绍和安装
 
+关于 Linux 的历史发展和在虚拟机内安装的讲解。
+
 ## Linux 与 Unix 的关系
 
 ### 从 Unix 提出到 GNU

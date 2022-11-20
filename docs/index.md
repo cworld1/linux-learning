@@ -1,4 +1,8 @@
-# Linux Learning
+---
+sidebar_position: 1
+---
+
+# 笔记简述
 
 [![GitHub stars](https://img.shields.io/github/stars/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/stargazers)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/cworld1/linux-learning?label=commits&style=flat-square)](https://github.com/cworld1/linux-learning/commits)
@@ -6,51 +10,11 @@
 
 这是关于 CWorld 学习 Linux 一些笔记和代码。
 
-[前往阅读](https://linux.cworld.top/)
+<!-- [前往阅读](https://r.cworld.top) -->
 
 ## 项目介绍
 
-本项目使用 [Docusaurus 2](https://docusaurus.io/) 构建。
-
-## 项目运行
-
-首先请确保已经安装了 Node.js。
-
-- 安装相关包文件：
-
-  ```
-  $ yarn
-  ```
-
-- 本地开发运行：
-
-  ```
-  $ yarn start
-  ```
-
-  此命令启动本地开发服务器并打开浏览器窗口。大多数更改都是实时反映的，无需重新启动服务器。
-
-- 构建生成成品（如果你需要的话）：
-
-  ```
-  $ yarn build
-  ```
-
-  此命令将静态内容生成到 `build` 目录中，并可以使用任何静态内容托管服务提供。
-
-- 部署（使用 SSH）：
-
-  ```
-  $ USE_SSH=true yarn deploy
-  ```
-
-  部署（不使用 SSH）：
-
-  ```
-  $ GIT_USER=<Your GitHub username> yarn deploy
-  ```
-
-  如果您正在使用 GitHub 页面进行托管，则此命令是构建网站并推送到 `gh-pages` 分支的便捷方法。
+还在努力更新 ing
 
 ## 贡献
 
