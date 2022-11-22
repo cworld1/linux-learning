@@ -28,7 +28,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`欢迎来 ${siteConfig.title}`}
+      title={`欢迎访问 ${siteConfig.title}`}
       description="CWorld 在学习 Linux 时的一些笔记"
     >
       <HomepageHeader />
