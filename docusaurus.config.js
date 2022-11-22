@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-Hans",
-    locales: ["en", "zh-Hans"],
+    locales: ["zh-Hans", "en"],
   },
 
   presets: [
@@ -36,18 +36,22 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/cworld1/linux-learning/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/cworld1/linux-learning/tree/main/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
       }),
     ],
@@ -74,6 +78,10 @@ const config = {
           {
             href: "https://github.com/cworld1/linux-learning",
             label: "GitHub",
+            position: "right",
+          },
+          {
+            type: "localeDropdown",
             position: "right",
           },
         ],
@@ -117,7 +125,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright ©${new Date().getFullYear()} CWorld • \
+          <a href="https://docusaurus.io/">Docusaurus 2</a> 强力驱动 • \
+          总访问 <span id="busuanzi_value_site_pv">???</span> 次`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -125,12 +135,12 @@ const config = {
       },
     }),
 
-  themes: [
-    // ... Your other themes.
+  scripts: ["https://busuanzi.icodeq.com/busuanzi.pure.mini.js"],
+
+  plugins: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
+      "@easyops-cn/docusaurus-search-local",
+      {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
@@ -138,7 +148,7 @@ const config = {
         // ```
         language: ["en", "zh"],
         // ```
-      }),
+      },
     ],
   ],
 };
