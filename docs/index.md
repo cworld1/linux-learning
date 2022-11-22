@@ -6,8 +6,8 @@ sidebar_position: 1
 
 [![GitHub stars](https://img.shields.io/github/stars/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/stargazers)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/cworld1/linux-learning?label=commits&style=flat-square)](https://github.com/cworld1/linux-learning/commits)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/cworld1/linux-learning/docusaurus-build-deloy?label=workflow&style=flat-square)](https://github.com/cworld1/linux-learning/actions/workflows/main.yml)
 [![GitHub license](https://img.shields.io/github/license/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/blob/master/LICENSE)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6cbb243a-55c0-48db-a3a7-7ea08e6981d3/deploy-status)](https://app.netlify.com/sites/linux-learning/deploys)
 
 这是关于 CWorld 学习 Linux 一些笔记和代码。
 
@@ -72,8 +72,8 @@ sidebar_position: 1
 
 ## License
 
-[![知识共享许可协议](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
-
 The MIT License.
+
+[![知识共享许可协议](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 
 本作品采用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可。
