@@ -69,7 +69,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "index",
+            docId: "README",
             position: "left",
             label: "笔记",
           },
