@@ -36,13 +36,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/cworld1/linux-learning/tree/main/docs",
+          editUrl: "https://github.com/cworld1/linux-learning/blob/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/cworld1/linux-learning/tree/main/blog",
+          editUrl: "https://github.com/cworld1/linux-learning/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
