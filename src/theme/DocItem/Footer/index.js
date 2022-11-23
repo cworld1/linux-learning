@@ -4,11 +4,11 @@ import Comments from "../../../components/Comments";
 import { useDoc } from "@docusaurus/theme-common/internal";
 
 export default function FooterWrapper(props) {
-  const { isDocPage } = useDoc();
+  const { frontMatter } = useDoc();
   return (
     <>
       <Footer {...props} />
-      {isDocPage && <Comments {...{ type: "docs" }} />}
+      {frontMatter && <Comments {...{ type: "docs" }} />}
     </>
   );
 }
