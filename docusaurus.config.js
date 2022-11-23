@@ -135,7 +135,7 @@ const config = {
       },
     }),
 
-  scripts: ["https://busuanzi.icodeq.com/busuanzi.pure.mini.js"],
+  // scripts: ["https://busuanzi.icodeq.com/busuanzi.pure.mini.js"],
 
   plugins: [
     [
