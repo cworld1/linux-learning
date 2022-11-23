@@ -1,15 +1,14 @@
 import React from "react";
 import Footer from "@theme-original/DocItem/Footer";
-import { useDoc } from "@docusaurus/theme-common/internal";
 import Comments from "../../../components/Comments";
+import { useDoc } from "@docusaurus/theme-common/internal";
 
 export default function FooterWrapper(props) {
-  const { frontMatter } = useDoc();
-
+  const { isDocPage } = useDoc();
   return (
     <>
       <Footer {...props} />
-      {frontMatter?.ID && <Comments {...{ type: "docs" }} />}
+      {isDocPage && <Comments {...{ type: "docs" }} />}
     </>
   );
 }
