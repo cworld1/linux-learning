@@ -150,6 +150,15 @@ const config = {
         // ```
       },
     ],
+    [
+      "plugin-image-zoom",
+      {
+        selector: ".markdown :not(em) > img",
+        options: {
+          background: "#242526",
+        },
+      },
+    ],
   ],
 };
 
