@@ -136,7 +136,7 @@ ifconfig eth0:0 192.168.1.10
 静态配置：
 
 ```bash
-# vim /etc/sysconfig/network-scripts/ifcfg-eth0
+vim /etc/sysconfig/network-scripts/ifcfg-eth0
 # Type=Ethernet
 # DEVICE=eth0
 # HWADDR=00:02:8A:A6:30:45
