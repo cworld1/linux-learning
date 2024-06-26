@@ -38,12 +38,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/cworld1/linux-learning/blob/main/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/cworld1/linux-learning/blob/main/",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -74,7 +68,7 @@ const config = {
             label: "笔记",
           },
           // { to: "/blog", label: "Blog", position: "left" },
-          { to: "https://blog.cworld.top/", label: "博客", position: "right" },
+          { to: "https://cworld.top/", label: "博客", position: "right" },
           {
             href: "https://github.com/cworld1/linux-learning",
             label: "GitHub",
@@ -116,7 +110,7 @@ const config = {
             items: [
               {
                 label: "个人博客",
-                to: "https://blog.cworld.top/",
+                to: "https://cworld.top/",
               },
               {
                 label: "GitHub",
