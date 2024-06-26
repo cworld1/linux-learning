@@ -1,7 +1,7 @@
 # Linux Learning
 
 [![GitHub stars](https://img.shields.io/github/stars/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/stargazers)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/cworld1/linux-learning?label=commits&style=flat-square)](https://github.com/cworld1/linux-learning/commits)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/cworld1/linux-learning?label=commits&style=flat-square)](https://github.com/cworld1/linux-learning/commits)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/cworld1/linux-learning/.github/workflows/main.yml?branch=main&style=flat-square)](https://github.com/cworld1/linux-learning/actions/workflows/main.yml)
 [![GitHub license](https://img.shields.io/github/license/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/blob/master/LICENSE)
 

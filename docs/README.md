@@ -5,8 +5,8 @@ sidebar_position: 1
 # 笔记简述
 
 [![GitHub stars](https://img.shields.io/github/stars/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/stargazers)
-[![GitHub commit activity](https://img.shields.io/github/actions/workflow/status/cworld1/linux-learning/.github/workflows/main.yml?branch=main&style=flat-square)](https://github.com/cworld1/linux-learning/commits)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/cworld1/linux-learning/docusaurus-build-deloy?label=workflow&style=flat-square)](https://github.com/cworld1/linux-learning/actions/workflows/main.yml)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/cworld1/linux-learning?label=commits&style=flat-square)](https://github.com/cworld1/linux-learning/commits)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/cworld1/linux-learning/.github/workflows/main.yml?branch=main&style=flat-square)](https://github.com/cworld1/linux-learning/actions/workflows/main.yml)
 [![GitHub license](https://img.shields.io/github/license/cworld1/linux-learning?style=flat-square)](https://github.com/cworld1/linux-learning/blob/master/LICENSE)
 
 这是关于 CWorld 学习 Linux 一些笔记和代码。
