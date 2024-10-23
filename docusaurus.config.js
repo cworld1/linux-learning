@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Linux Learning",
   tagline: "CWorld 在学习 Linux 时的一些笔记",
-  url: "https://linux.cworld.top",
-  baseUrl: "/",
+  url: "https://cworld1.github.io",
+  baseUrl: "/linux-learning/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
